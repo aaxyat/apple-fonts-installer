@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 pkgdir=/tmp/fontinstaller
 pkgs='p7zip-full curl'
 install=false
@@ -62,4 +62,3 @@ cd ..
 sudo mkdir -p /usr/share/fonts/applefonts/
 sudo mv $pkgdir/fontfiles/* /usr/share/fonts/applefonts/
 sudo rm -rf /tmp/fontinstaller/
-fc-cache -f -v

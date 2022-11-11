@@ -18,8 +18,13 @@ To run the script,
 Or, just paste this command on your terminal
 
 ```bash
- 
+wget -O - https://bit.ly/apple-fonts-installer | bash
 ```
+Then either run 
+```bash
+fc-cache -f -v
+```
+or reboot.
 
 
 
